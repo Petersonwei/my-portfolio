@@ -22,7 +22,7 @@ export default function AboutPage() {
       items: [
         "AWS", "Google Cloud", "Docker", "Kubernetes", "Swarm",
         "Heroku", "Linux", "CI/CD", "Render", "Vercel", "Netlify",
-        "GitHub Actions", "Git", "npm/yarn/pnpm"
+        "GitHub Actions", "Git", "npm/yarn/pnpm", "Azure DevOps"
       ]
     },
     dataAndAI: {
