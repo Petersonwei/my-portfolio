@@ -6,7 +6,7 @@ export default function AboutPage() {
     frontEnd: {
       title: "Frontend Development",
       items: [
-        "React", "NextJS", "TypeScript", "JavaScript", "HTML", "CSS",
+        "React", "React Native", "NextJS", "TypeScript", "JavaScript", "HTML", "CSS", 
         "UI/UX Design", "Figma", "Human Centred Design"
       ]
     },
