@@ -2,10 +2,57 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
 export default function AboutPage() {
-  const skills = [
-    "React", "Node.js", "Next.js", "TypeScript", "JavaScript", "Python", "Java", "C#", "HTML", "CSS",
-    "SQL", "MongoDB", "AWS", "Docker", "Git", "RESTful APIs", "GraphQL", "Agile", "UI/UX Design"
-  ]
+  const skills = {
+    programming: {
+      title: "Programming Skills",
+      items: [
+        "Python", "C", "C#", "C++", "HTML", "SQL", "PHP", "CSS", "JavaScript", "TypeScript",
+        "VBA", "R-Studio", "REST API", "React", "NextJS", "NestJS", "NodeJS", ".NET",
+        "GraphQL", "MongoDB", "Linux"
+      ]
+    },
+    cloud: {
+      title: "Cloud Technologies",
+      items: [
+        "Cloud Computing", "AWS", "Google Cloud", "Docker", "Kubernetes", "Swarm",
+        "Heroku", "Internet of Things", "AI agent"
+      ]
+    },
+    dataAnalysis: {
+      title: "Data Analysis & Visualization",
+      items: [
+        "Pandas", "Matplotlib", "Seaborn", "R Studio", "Power BI", "Flourish"
+      ]
+    },
+    machineLearning: {
+      title: "Machine Learning",
+      items: [
+        "Business Analysis", "Data Science", "Statistic", "Logistic Regression",
+        "K-means Clustering"
+      ]
+    },
+    webAndSEO: {
+      title: "Web & SEO",
+      items: [
+        "Human Centred Design", "Shopify", "WordPress", "Elementor", "Figma",
+        "SEO", "Web analytics", "Swagger"
+      ]
+    },
+    collaboration: {
+      title: "Collaboration Tools",
+      items: [
+        "PowerPoint", "Word", "Excel", "Notion", "Google Meet", "Zoom",
+        "Microsoft Teams"
+      ]
+    },
+    soft: {
+      title: "Soft Skills",
+      items: [
+        "Analytical thinking", "Design thinking", "Problem-solving",
+        "Teamwork", "Leadership", "Project management", "Agile"
+      ]
+    }
+  };
 
   return (
     <div className="space-y-6">
@@ -49,12 +96,23 @@ export default function AboutPage() {
         <CardHeader>
           <CardTitle>Skills</CardTitle>
         </CardHeader>
-        <CardContent>
-          <div className="flex flex-wrap gap-2">
-            {skills.map((skill, index) => (
-              <Badge key={index} variant="secondary">{skill}</Badge>
-            ))}
-          </div>
+        <CardContent className="grid gap-6 md:grid-cols-2">
+          {Object.entries(skills).map(([key, { title, items }]) => (
+            <div key={key} className="space-y-2">
+              <h3 className="font-semibold text-lg border-b pb-2">{title}</h3>
+              <div className="flex flex-wrap gap-2">
+                {items.map((skill, index) => (
+                  <Badge 
+                    key={index} 
+                    variant="secondary"
+                    className="px-3 py-1 hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
+                  >
+                    {skill}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+          ))}
         </CardContent>
       </Card>
     </div>
