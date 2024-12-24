@@ -31,7 +31,7 @@ export default function AboutPage() {
           <div>
             <h3 className="font-semibold">Master of Information Technology</h3>
             <p>The University of Queensland, Brisbane QLD, Australia</p>
-            <p>Jul 2023 – Jun 2025 | CGPA: 5.72/7</p>
+            <p>Jul 2023 – Jun 2025 | CGPA: Distinction</p>
           </div>
           <div>
             <h3 className="font-semibold">Study Abroad Program</h3>
