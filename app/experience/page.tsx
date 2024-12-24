@@ -43,6 +43,25 @@ export default function ExperiencePage() {
       description: [
         "Redesigned and updated the Rotary Club of Brisbane's website, enhancing content accessibility and user engagement by 25% using HTML, CSS, and Club Runner in collaboration with the executive team."
       ]
+    },
+    {
+      title: "Consultant Intern",
+      company: "WildFlower Gardens for Good, Sydney NSW, Australia",
+      date: "Feb 2023 – Apr 2023",
+      description: [
+        "Conducted market research with a 4-member team and developed a strategic fundraising report, offering actionable insights to improve donor engagement and refining marketing and project management skills."
+      ]
+    },
+    {
+      title: "Manage Information System Intern",
+      company: "Mascot New Technology Co.Ltd, Taiwan",
+      date: "Dec 2023 – Feb 2024",
+      description: [
+        "Utilized Power BI for data extraction, managed system updates, and implemented backup procedures, ensuring SaaS system accuracy in collaboration with a 3-member team. Analysed and compared CRM applications to optimize strategic tech decisions.",
+        "Facilitated cross-departmental efforts during ISO 9001/ISO 13485 standards audits by managing necessary documentation and assisting in risk management, ensuring compliance with international standards.",
+        "Improved online visibility through strategic SEO, utilizing Google Analytics and Ads to drive sales through targeted campaigns.",
+        "Handled customer relations with 5 companies, gained proficiency in procurement and ERP systems, and participated in international exhibitions in Korea, Vietnam, the USA, and China, acquiring valuable experience."
+      ]
     }
   ]
 
@@ -53,4 +72,3 @@ export default function ExperiencePage() {
     </div>
   )
 }
-
