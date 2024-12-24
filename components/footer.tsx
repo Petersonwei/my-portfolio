@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4 md:flex-row md:gap-2 md:px-0">
           <p className="text-center text-sm leading-loose md:text-left">
             Built by Peter Wei. The source code is available on{" "}
-            <Link href="https://github.com/Petersonwei" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">
+            <Link href="https://github.com/Petersonwei/my-portfolio.git" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4">
               GitHub
             </Link>
             .

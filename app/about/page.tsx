@@ -41,7 +41,7 @@ export default function AboutPage() {
           <div>
             <h3 className="font-semibold">Bachelor of Business Administration</h3>
             <p>Tunghai University, Taiwan</p>
-            <p>Jul 2019 – Jun 2023 | CGPA: 83.83/100, Two-time Dean's List recipient</p>
+            <p>Jul 2019 – Jun 2023 | CGPA: 83.83/100, Two-time Dean&apos;s List recipient</p>
           </div>
         </CardContent>
       </Card>
@@ -60,4 +60,3 @@ export default function AboutPage() {
     </div>
   )
 }
-
