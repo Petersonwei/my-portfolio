@@ -3,53 +3,56 @@ import { Badge } from "@/components/ui/badge"
 
 export default function AboutPage() {
   const skills = {
+    frontEnd: {
+      title: "Frontend Development",
+      items: [
+        "React", "NextJS", "TypeScript", "JavaScript", "HTML", "CSS",
+        "UI/UX Design", "Figma", "Human Centred Design"
+      ]
+    },
+    backEnd: {
+      title: "Backend Development", 
+      items: [
+        "NodeJS", "NestJS", ".NET", "Python", "C#", "PHP",
+        "REST API", "GraphQL", "MongoDB", "SQL", "Swagger API Documentation"
+      ]
+    },
+    cloudAndDevOps: {
+      title: "Cloud & DevOps",
+      items: [
+        "AWS", "Google Cloud", "Docker", "Kubernetes", "Swarm",
+        "Heroku", "Linux", "CI/CD", "Render", "Vercel", "Netlify",
+        "GitHub Actions", "Git", "npm/yarn/pnpm"
+      ]
+    },
+    dataAndAI: {
+      title: "Data Science & AI",
+      items: [
+        "Pandas", "Matplotlib", "Seaborn", "R Studio", "Power BI",
+        "Data Science", "Statistics", "Logistic Regression",
+        "K-means Clustering", "AI agent", "Business Analysis"
+      ]
+    },
+    digitalMarketing: {
+      title: "Digital Marketing",
+      items: [
+        "SEO", "Web Analytics", "Shopify", "WordPress", "Elementor",
+        "Flourish", "Power BI"
+      ]
+    },
     programming: {
-      title: "Programming Skills",
+      title: "Other Programming",
       items: [
-        "Python", "C", "C#", "C++", "HTML", "SQL", "PHP", "CSS", "JavaScript", "TypeScript",
-        "VBA", "R-Studio", "REST API", "React", "NextJS", "NestJS", "NodeJS", ".NET",
-        "GraphQL", "MongoDB", "Linux"
+        "C", "C++", "VBA", "Internet of Things"
       ]
     },
-    cloud: {
-      title: "Cloud Technologies",
+    professional: {
+      title: "Professional Skills",
       items: [
-        "Cloud Computing", "AWS", "Google Cloud", "Docker", "Kubernetes", "Swarm",
-        "Heroku", "Internet of Things", "AI agent"
-      ]
-    },
-    dataAnalysis: {
-      title: "Data Analysis & Visualization",
-      items: [
-        "Pandas", "Matplotlib", "Seaborn", "R Studio", "Power BI", "Flourish"
-      ]
-    },
-    machineLearning: {
-      title: "Machine Learning",
-      items: [
-        "Business Analysis", "Data Science", "Statistic", "Logistic Regression",
-        "K-means Clustering"
-      ]
-    },
-    webAndSEO: {
-      title: "Web & SEO",
-      items: [
-        "Human Centred Design", "Shopify", "WordPress", "Elementor", "Figma",
-        "SEO", "Web analytics", "Swagger"
-      ]
-    },
-    collaboration: {
-      title: "Collaboration Tools",
-      items: [
-        "PowerPoint", "Word", "Excel", "Notion", "Google Meet", "Zoom",
-        "Microsoft Teams"
-      ]
-    },
-    soft: {
-      title: "Soft Skills",
-      items: [
-        "Analytical thinking", "Design thinking", "Problem-solving",
-        "Teamwork", "Leadership", "Project management", "Agile"
+        "Analytical Thinking", "Design Thinking", "Problem-solving",
+        "Teamwork", "Leadership", "Project Management", "Agile",
+        "PowerPoint", "Word", "Excel", "Notion", "Google Meet",
+        "Zoom", "Microsoft Teams"
       ]
     }
   };
