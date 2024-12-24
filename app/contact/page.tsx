@@ -22,7 +22,7 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Here you would typically send the form data to a server
+    // FIXME: send the form data to a server
     console.log(formData)
     toast({
       title: "Message Sent!",
@@ -40,7 +40,7 @@ export default function ContactPage() {
           <CardDescription>Fill out the form below to send me a message.</CardDescription>
         </CardHeader>
         <CardContent>
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form onSubmit={handleSubmit} className="space-y-4 text-left">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
               <Input id="name" name="name" value={formData.name} onChange={handleChange} required />
@@ -53,11 +53,15 @@ export default function ContactPage() {
               <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
               <Textarea id="message" name="message" value={formData.message} onChange={handleChange} required />
             </div>
-            <Button type="submit">Send Message</Button>
           </form>
+          <div className="mt-6 text-left">
+            <p className="text-sm font-medium text-gray-700">+61452509198 | pwei.dev@gmail.com | <a href="https://linkedin.com/in/peter-wei-it/" className="text-blue-500">linkedin.com/in/peter-wei-it/</a> </p>
+          </div>
+          <div className="mt-4"> 
+            <Button type="submit">Send Message</Button>
+          </div>
         </CardContent>
       </Card>
     </div>
   )
 }
-

@@ -16,9 +16,14 @@ const projects: Project[] = [
     technologies: ["Node.js", "React", "OpenAI API", "Linux", "Cloud Deployment"]
   },
   {
-    title: "Design and Evaluation of an Online Training Tool",
+    title: "Design and Evaluation of an Online Training Tool", 
     description: "Developed an online training platform for the Triple P-Positive Parenting Program, enhancing accessibility and engagement through interactive elements, user-centered design, and open-source customization.",
     technologies: ["Figma", "UI/UX", "User-centered design", "Open-source customization", "User testing"]
+  },
+  {
+    title: "House Hunter, UQ Validate Program",
+    description: "Directed market research and validation through 40 interviews, collaborating with a 3-member team. Built the House Hunter website and designed the user interface, elevating user experience and supporting the business model.",
+    technologies: ["Market Research", "Web Development", "UI/UX Design", "Team Collaboration"]
   },
   {
     title: "E-commerce store with .Net, React & Redux",
@@ -26,9 +31,19 @@ const projects: Project[] = [
     technologies: ["React", "Redux", "Material UI", ".NET", "C#", "SQL Server", "Stripe API", "TypeScript", "Docker"]
   },
   {
+    title: "Brisbane's Best Events",
+    description: "Developed a web application for discovering and sharing events in Brisbane. The platform integrates Brisbane City Council Events API to provide personalized event recommendations and social features for young adults.",
+    technologies: ["PHP", "MySQL", "JavaScript", "HTML/CSS", "Leaflet.js", "OpenRouteService API", "GeoJSON"]
+  },
+  {
     title: "Task Manager",
     description: "Designed and implemented a Task Manager application with robust features for task creation, assignment, and tracking, leveraging React for the front-end, Node.js and Express for the back-end, and MongoDB for data persistence.",
     technologies: ["NestJS", "TypeScript", "Node.js", "AWS", "REST APIs", "PostgreSQL", "MongoDB", "GraphQL"]
+  },
+  {
+    title: "Movie Review Website",
+    description: "Built a responsive movie recommendation website, integrating APIs for dynamic movie recommendations.",
+    technologies: ["JavaScript", "HTML", "CSS", "Figma", "API Integration", "Git"]
   }
 ]
 
@@ -63,4 +78,3 @@ export default function ProjectsPage() {
     </div>
   )
 }
-

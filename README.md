@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Peter Wei's Portfolio Website
 
-## Getting Started
+Hey there! 👋 Welcome to my portfolio website repository. This is a modern, responsive web application built with Next.js 13+ and TypeScript, showcasing my professional experience, projects, and skills as a Full Stack Developer.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Responsive Design**: Looks great on all devices, from mobile to desktop
+- **Dark/Light Mode**: Easy on the eyes with theme switching capability
+- **Modern UI**: Built with shadcn/ui components and Tailwind CSS
+- **Interactive Elements**: Including a typewriter effect on the homepage
+- **Contact Form**: Get in touch with me directly through the website
+- **Project Showcase**: Highlighting my key development projects
+- **Professional Experience**: Timeline of my work history
+- **Skills & Education**: Comprehensive overview of my technical abilities
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Check out the live site at: [https://my-portfolio-ruddy-alpha-30.vercel.app/](https://my-portfolio-ruddy-alpha-30.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Tech Stack
 
-## Learn More
+- **Framework**: Next.js 13+
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
+- **Theme**: next-themes
+- **Deployment**: Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Installation & Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Petersonwei/my-portfolio.git
+   cd my-portfolio
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-## Deploy on Vercel
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📂 Project Structure
+
+The project follows a clean and organized structure:
