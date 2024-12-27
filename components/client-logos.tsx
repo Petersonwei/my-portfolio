@@ -22,7 +22,7 @@ const clients = [
 export function ClientLogos() {
   return (
     <div className="py-12">
-      <h3 className="text-xl text-center text-muted-foreground mb-8">I'VE DONE WORK FOR</h3>
+      <h3 className="text-xl text-center text-muted-foreground mb-8">I&apos;VE DONE WORK FOR</h3>
       <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
         {clients.map((client) => (
           <div key={client.name} className="relative w-32 h-12 grayscale hover:grayscale-0 transition-all">

@@ -1,6 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card"
-// Removed the Avatar imports since they are causing issues
-// import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 type Testimonial = {
   quote: string
@@ -12,13 +10,13 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
   {
-    quote: "His focus on app development for our ERP system, Boond Manager, showcased his skills in React, TypeScript, Nest.js, and MongoDB. Peter demonstrated exemplary professionalism and a strong work ethic, contributing significantly to the project's success.",
+    quote: "His focus on app development for our ERP system, Boond Manager, showcased his skills in React, TypeScript, Nest.js, and MongoDB. Peter demonstrated exemplary professionalism and a strong work ethic, contributing significantly to the project&apos;s success.",
     author: "Pierre Bussy",
     title: "Co-Founder",
     company: "Easy Skill Australia Pty Ltd",
   },
   {
-    quote: "I highly recommend Tzu Hsiang (Peter) Wei for the IT intern role at AxCharge. His contributions to the design and launch of our company’s official website were invaluable. Peter's responsibilities included UI/UX design, website development, and content creation, showcasing his technical proficiency and creativity.",
+    quote: "I highly recommend Tzu Hsiang (Peter) Wei for the IT intern role at AxCharge. His contributions to the design and launch of our company&apos;s official website were invaluable. Peter&apos;s responsibilities included UI/UX design, website development, and content creation, showcasing his technical proficiency and creativity.",
     author: "Peng Tong",
     title: "CEO",
     company: "AxCharge",
@@ -38,11 +36,8 @@ export function Testimonials() {
         <Card key={index} className="bg-muted/50">
           <CardContent className="pt-6">
             <blockquote className="space-y-2">
-              <p className="text-lg italic">"{testimonial.quote}"</p>
+              <p className="text-lg italic">&ldquo;{testimonial.quote}&rdquo;</p>
               <footer className="flex items-center space-x-4 mt-4">
-                <div className="flex items-center">
-                  <span className="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center">{testimonial.author[0]}</span>
-                </div>
                 <div>
                   <p className="font-semibold">{testimonial.author}</p>
                   <p className="text-sm text-muted-foreground">{testimonial.title}, {testimonial.company}</p>
